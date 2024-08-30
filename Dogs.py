@@ -35,6 +35,7 @@ class CryptoApp:
             for crypto in self.crypto_list:
                 self.labels[crypto].config(text="Ошибка загрузки")
 
+
 if __name__ == "__main__":
     root = tk.Tk()
     app = CryptoApp(root)
